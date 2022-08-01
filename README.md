@@ -1,7 +1,5 @@
-# Data Science Bootcamp
-Core skills for Data Analyst
+## My Skills
 
-## Skills
 - Spreadsheets/ Excel
 - SQL Database
 - R Programming
