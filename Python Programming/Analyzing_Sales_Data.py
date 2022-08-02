@@ -29,7 +29,6 @@ df[ df['Postal Code'].isna() ]
 
 ## TODO - Explore this dataset on your owns, ask your own questions
 # find Total Sales group by Category for each Region
-
 df.head()
 df.groupby(['Category', 'Region'])['Sales'].sum().reset_index()\
     .sort_values(['Category','Sales'], ascending=False)
