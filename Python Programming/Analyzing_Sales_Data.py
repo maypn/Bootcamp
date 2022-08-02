@@ -14,7 +14,6 @@ df.info()
 
 ## TODO - convert order date and ship date to datetime in the original dataframe
 # pd.to_datetime() => convert to datetime
-
 order_date = pd.to_datetime(df['Order Date'], format='%m%d%Y')
 df['Order Date'] = order_date
 
@@ -138,6 +137,3 @@ import numpy as np
 df['is_profit'] = np.where( df['Profit'] > 0, "yep", "nope" )
 
 df.head()
-
-
-
