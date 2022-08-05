@@ -5,4 +5,4 @@
 - R Programming
 - Python Programming
 - Data Visualization (Power BI, Google Data Stuido, Tableau)
-  - [Data Studio]
+  - [Data Studio](https://github.com/maypn/mySkills/blob/main/Dashboard/Sales_Report.pdf)
