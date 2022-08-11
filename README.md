@@ -1,7 +1,5 @@
-## My Skills
+## My Portfolio
 
-### Spreadsheets/ Excel
-  - vlookup, PivotTable and basic functions
 ### SQL Database
   - bulid restaurant database
 ### R Programming
