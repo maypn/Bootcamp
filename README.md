@@ -1,8 +1,9 @@
 ## My Skills
 
 ### Spreadsheets/ Excel
+  - vlookup, PivotTable and basic functions
 ### SQL Database
-  - build restaurant database
+  - bulid restaurant database
 ### R Programming
   - Rock Paper Scissors Game
 ### Python Programming
