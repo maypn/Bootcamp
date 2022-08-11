@@ -1,5 +1,3 @@
-## My Portfolio
-
 ### SQL Database
   - Bulid a restaurant database
   
