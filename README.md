@@ -1,15 +1,15 @@
 ## My Skills
 
-- Spreadsheets/ Excel
-- SQL Database
+### Spreadsheets/ Excel
+### SQL Database
   - build restaurant database
-- R Programming
+### R Programming
   - Rock Paper Scissors Game
-- Python Programming
+### Python Programming
   - Analyzing Sales Data
   - OOP_ATM
   - Rock Paper Scissors Game
-- Data Visualization
+### Data Visualization
   - [Sales Report 2015 (Data Studio)](https://github.com/maypn/mySkills/blob/main/Dashboard/Sales_Report.pdf)
   - (Power BI)
   - (Tableau)
