@@ -1,7 +1,7 @@
 ## My Portfolio
 
 ### SQL Database
-  - bulid restaurant database
+  - Bulid a restaurant database
 ### R Programming
   - Rock Paper Scissors Game
 ### Python Programming
