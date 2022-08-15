@@ -10,6 +10,6 @@
   - Rock Paper Scissors Game
   
 ### Data Visualization
-  - [Sales Report 2015 (Data Studio)](https://github.com/maypn/mySkills/blob/main/Dashboard/Sales_Report.pdf)
+  - Sales Report 2015 - Data Studio
   - (Power BI)
   - (Tableau)
