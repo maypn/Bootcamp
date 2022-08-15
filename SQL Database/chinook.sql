@@ -1,11 +1,11 @@
 -- select column
 SELECT 
-firstname,
-    lastname,
-    -- create FullName collumn
-    firstname || " " || lastname AS FullName,
-    -- creare email column
-    LOWER(firstname) || '.' || LOWER(SUBSTR(lastname, 1,1)) || '@datarockie.com' AS new_email
+	firstname,
+    	lastname,
+    	-- create FullName collumn
+    	firstname || " " || lastname AS FullName,
+    	-- creare email column
+    	LOWER(firstname) || '.' || LOWER(SUBSTR(lastname, 1,1)) || '@datarockie.com' AS new_email
 FROM customers;
 
 
