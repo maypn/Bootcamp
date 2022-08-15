@@ -1,6 +1,6 @@
 -- select column
 SELECT 
-	  firstname,
+firstname,
     lastname,
     -- create FullName collumn
     firstname || " " || lastname AS FullName,
