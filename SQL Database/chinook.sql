@@ -94,7 +94,7 @@ ON art.artistid = alb.artistid;
 -- join multiple tables
 SELECT 
 	art.*,
-	ger.Name as genre_name,
+	gen.Name as genre_name,
     	alb.title,
     	tra.name,
     	tra.composer,
@@ -104,7 +104,7 @@ SELECT
 FROM artists as art
 JOIN albums AS alb ON art.artistid = alb.artistid
 JOIN tracks as tra on alb.albumid = tra.albumid
-JOIN genres as ger ON tra.genreid = ger.genreid;
+JOIN genres as gen ON tra.genreid = gen.genreid;
 
 
 -- total sales by year
@@ -193,3 +193,152 @@ select
     	bytes
 from tracks
 where bytes > (SELECT AVG(bytes) FROM tracks);
+
+
+--
+SELECT
+	country,
+    	state,
+	count(country) as number_of_customers
+FROM customers
+GROUP by 1, 2
+ORDER BY 3 DESC; -- coulumn index
+
+
+--
+SELECT 
+	count(*),
+    	count(company),
+    	count(country),
+    	-- count unique
+    	COUNT(DISTINCT country)
+FROM customers;
+
+
+-- union
+SELECT * FROM(
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'USA'
+		UNION -- number of column is equal and same data type
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'France'
+)
+order by country;
+
+
+-- union all (keep duplicate)
+SELECT * FROM(
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'USA'
+		UNION ALL 
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'France'
+)
+order by country;
+
+
+-- crate new table (physical table)
+CREATE TABLE if not EXISTS customer_use_france AS
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'USA'
+		UNION
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'France';
+
+-- delete table
+drop TABLE customer_use_france;
+
+
+-- virsual table (view) == stored query
+-- to avoid drop table missing
+CREATE view custome_inv_summary AS
+    SELECT
+        cus.firstname,
+        cus.lastname,
+        cus.country,
+        SUM(inv.total) as total_invoice
+    FROM customers cus
+    join invoices inv on cus.CustomerId = inv.customerid
+    GROUP by 1, 2
+    ORDER by 4 DESC;
+    
+-- automatically update data following main data 
+CREATE view top_ten_cus AS
+	SELECT * FROM custome_inv_summary LIMIT 10;
+	
+-- Bar chart
+BAR-SELECT lastname as label, total_invoice as y FROM top_ten_cus;
+
+-- total revenue group by year
+CREATE view revenue_by_year as
+  SELECT 
+      STRFTIME('%Y-%m', invoicedate) as month_id,
+      ROUND(SUM(total),4) AS revenue
+  FROM invoices
+  GROUP by 1;
+
+-- Line chart
+LINE-SELECT month_id as lable, revenue as y FROM revenue_by_year;
+	
+
+-- window function
+-- create new analytic column
+
+/*SELECT
+	-- create no. column 
+    -- OVER() => over the whole dataset
+    -- OVER(PARTITION by country) run no. group by country
+    ROW_NUMBER() OVER(PARTITION by country) as row_num,
+	firstname,
+    lastname,
+    country
+FROM customers;*/
+
+-- create 5 groups of song by Bytes
+SELECT segment, COUNT(*) FROM(
+  SELECT
+      name,
+      bytes,
+      -- NTILE(5) => divided data into 5 groups
+      -- OVER(ORDER by bytes) => Sort data by bytes
+      NTILE(5) OVER(ORder by bytes) as segment
+  FROM tracks
+  )
+GROUP by segment;
+
+-- find segment 4
+SELECT * FROM(
+  SELECT
+      name,
+      bytes,
+      -- NTILE(5) => divided data into 5 groups
+      -- OVER(ORDER by bytes) => Sort data by bytes
+      NTILE(5) OVER(ORder by bytes) as segment
+  FROM tracks
+  )
+where segment = 4;
+
+
+--
+Drop view revenue_by_year;
+
+CREATE view revenue_by_year as
+  SELECT 
+      STRFTIME('%Y', invoicedate) as year,
+      ROUND(SUM(total),4) AS revenue
+  FROM invoices
+  GROUP by 1;
+
+
+-- create cummulative column
+SELECT 
+	*,
+    SUM(revenue) OVER(order by year) as running_total,
+    ROUND(revenue/ (SELECT SUM(revenue) FROM revenue_by_year) * 100, 4) AS percent
+FROM revenue_by_year;
