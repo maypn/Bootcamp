@@ -1,9 +1,9 @@
 -- create FullName and new_email column
 SELECT 
-    firstname,
-    lastname,
-    firstname || " " || lastname AS FullName,
-    LOWER(firstname) || '.' || LOWER(SUBSTR(lastname, 1,1)) || '@google.com' AS new_email
+	firstname,
+    	lastname,
+    	firstname || " " || lastname AS FullName,
+    	LOWER(firstname) || '.' || LOWER(SUBSTR(lastname, 1,1)) || '@google.com' AS new_email
 FROM customers;
 
 
