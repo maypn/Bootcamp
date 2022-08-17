@@ -1,5 +1,4 @@
 -- Table 1: Menu
-
 create table Menu (
     Menu_id int,
     Name TEXT,
@@ -21,7 +20,6 @@ insert into Menu values
     (10, "Ice lemon tea", "Beverages",  30);
 
 -- Table 2: Staff
-
 create table Staffs (
     Staff_id TEXT,
     Firstname TEXT,
@@ -40,7 +38,6 @@ insert into Staffs values
     ("T08", "Morgan", "Manager");
 
 -- Table 3: Invoices
-
 create table Invoices (
     Invoice_id TEXT,
     Customer_id int,
@@ -66,7 +63,6 @@ insert into Invoices values
     ("INV-12", 7, 50, "T04");
 
 -- Table 4: Orders
-
 create table Orders (
     Order_id int,
     Invoice_id TEXT,
@@ -92,7 +88,6 @@ insert into Orders values
     (12, "INV-12", 1, 2);
 
 -- Table 5: Customers
-
 create table Customers (
     Customer_id int,
     firstname TEXT,
