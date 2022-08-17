@@ -2,11 +2,11 @@
   - Bulid a restaurant database
   
 ### R Programming
-  - Rock Paper Scissors Game
+  - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)(https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
   
 ### Python Programming
   - Analyzing Sales Data
-  - OOP_ATM
+  - OOP_ATM [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
   - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
 ### Data Visualization
