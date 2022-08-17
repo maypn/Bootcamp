@@ -7,7 +7,7 @@
 ### Python Programming
   - Analyzing Sales Data
   - OOP_ATM
-  - Rock Paper Scissors Game
+  - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
 ### Data Visualization
   - [Sales Report 2015](https://github.com/maypn/myPortfolio/blob/85ae46169ee49305a047d90410892d344ce15914/Dashboard/Sales_Report.pdf) - Data Studio
