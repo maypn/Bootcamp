@@ -105,8 +105,8 @@ LINE-SELECT year_month as lable, revenue as y FROM revenue_by_year_month;
 -- window function
 -- create row number column that group by country
 SELECT
-    ROW_NUMBER() OVER(PARTITION by country) as row_num,
+    	ROW_NUMBER() OVER(PARTITION by country) as row_num,
 	firstname,
-    lastname,
-    country
+    	lastname,
+    	country
 FROM customers;
