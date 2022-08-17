@@ -72,3 +72,41 @@ ON cus.customerid = inv.customerid
 GROUP BY 1
 ORDER by 3 DESC
 limit 5;
+
+
+-- 1 union USA customer table and France customer table
+-- 2 create customer_usa_france table
+CREATE TABLE if not EXISTS customer_usa_france AS
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'USA'
+		UNION
+	SELECT firstname, lastname, country
+	FROM customers
+	where country = 'France';
+
+-- delete table
+drop TABLE customer_usa_france;
+
+
+-- 1 find total revenue group by year_month
+-- 2 create vitual table
+-- 3 insert time series chart: revenue
+CREATE view revenue_by_year_month as
+  SELECT 
+      STRFTIME('%Y-%m', invoicedate) as year_month,
+      ROUND(SUM(total),4) AS revenue
+  FROM invoices
+  GROUP by 1
+
+LINE-SELECT year_month as lable, revenue as y FROM revenue_by_year_month;
+
+
+-- window function
+-- create row number column that group by country
+SELECT
+    ROW_NUMBER() OVER(PARTITION by country) as row_num,
+	firstname,
+    lastname,
+    country
+FROM customers;
