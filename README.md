@@ -3,14 +3,21 @@
   - Bulid a restaurant database
   
 ### R Programming
-  - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
+  - Rock Paper Scissors Game 
+    
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
   
 ### Python Programming
   - Analyzing Sales Data
-  - OOP_ATM [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
+  - OOP_ATM 
   
-    <img src="https://github.com/maypn/myPortfolio/blob/729532605f1ff1956e8285c22cc9abe3187f1ae5/images/ATM01.jpg" width="150" height="250">
-  - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
+    <img src="https://github.com/maypn/myPortfolio/blob/96dc22a9af563639a72bc4206de81c2fb968f0ba/images/ATM02.jpg" width="200" height="250">
+    
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
+    
+  - Rock Paper Scissors Game 
+    
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
 ### Data Visualization
   - [Sales Report 2015](https://github.com/maypn/myPortfolio/blob/85ae46169ee49305a047d90410892d344ce15914/Dashboard/Sales_Report.pdf) - Data Studio
