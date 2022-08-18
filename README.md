@@ -3,6 +3,8 @@
     
     Explored and analysed data by using subqueries, window function and many more. 
     
+    ![](https://github.com/maypn/myPortfolio/blob/9f64f770ceca05bb38b571345e3f0eca850d9df6/images/Chinook.PNG)
+    
   - [Restaurant database](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/Restaurant_Database.sql)
     
     Using SQL to bulit a restaurant database.
