@@ -18,16 +18,15 @@
     <img src="images/Store_02.PNG" width="333" height="200">
   
   - [OOP_ATM](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/OOP_ATM.py) 
-    
+     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
+     
     <img src="images/ATM_02.PNG" width="333" height="200">
     
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
-    
   - [Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/Python%20Programming/Rock_Paper_Scissors_Game.py)
+     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
     
     <img src="images/Game_01.PNG" width="333" height="200">
     
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
 ## Data Visualization
   - [Sales Report](https://github.com/maypn/myPortfolio/blob/85ae46169ee49305a047d90410892d344ce15914/Dashboard/Sales_Report.pdf) - Dashborad of sales report using Data Studio
