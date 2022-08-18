@@ -14,7 +14,7 @@ Using SQL to bulit a restaurant database.
 ## R Programming
 ### [Project: Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/R%20Programming/Rock_Paper_Scissors_Game.R) 
 
-Let's play a game! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
+Let's Play a Game! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
     
 <img src="images/Game_01.PNG" width="333" height="200">
     
@@ -27,13 +27,13 @@ Explore and analyze store data to answer 10 questions.
   
 ### [Project: OOP_ATM](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/OOP_ATM.py) 
   
-5 ATM methods: Deposit, Withdraw, Check Balance, Bill Payment and Transfer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
+5 ATM methods: Deposit, Withdraw, Check Balance, Bill Payment and Transfer. Let's Try [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
      
 <img src="images/ATM_02.PNG" width="333" height="200">
     
 ### [Project: Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/Python%20Programming/Rock_Paper_Scissors_Game.py) 
     
-Let's play a game! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
+Let's Play a Game! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
     
 <img src="images/Game_02.PNG" width="333" height="200">
     
