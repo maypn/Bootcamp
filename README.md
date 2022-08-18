@@ -1,6 +1,11 @@
 ## SQL Database
-  - [Chinook](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/chinook.sql) 
+  - [Chinook](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/chinook.sql)
+    
+    Explored and analysed data by using subqueries, window function and many more. 
+    
   - [Restaurant database](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/Restaurant_Database.sql)
+    
+    Using SQL to bulit a restaurant database.
   
 ## R Programming
   - [Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/R%20Programming/Rock_Paper_Scissors_Game.R) 
