@@ -1,25 +1,21 @@
 ## SQL Database
-  - Chinook 
-  - Bulid a restaurant database
+  - [Chinook](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/chinook.sql) 
+  - [Restaurant database](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/SQL%20Database/Restaurant_Database.sql)
   
 ## R Programming
-  - Rock Paper Scissors Game 
+  - [Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/R%20Programming/Rock_Paper_Scissors_Game.R) 
     
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/197AZFvIu_VJyCPi9GP3BiI--9hNbBVna?usp=sharing)
   
 ## Python Programming
   - [Analyzing Sales Data](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/Analyzing_Sales_Data.ipynb)
   
-    ![](https://github.com/maypn/myPortfolio/blob/a11ddf495ca5249dc1f2508e45a1d526878fdd31/images/Shop02.jpg)
-    
   
   - [OOP_ATM](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/OOP_ATM.py) 
-  
-    <img src="https://github.com/maypn/myPortfolio/blob/96dc22a9af563639a72bc4206de81c2fb968f0ba/images/ATM02.jpg" width="200" height="250">
     
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
     
-  - Rock Paper Scissors Game 
+  - [Rock Paper Scissors Game](https://github.com/maypn/myPortfolio/blob/a9173b5bdcc126a89c280b081f88f5e1845e884c/Python%20Programming/Rock_Paper_Scissors_Game.py)
     
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
