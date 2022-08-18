@@ -60,9 +60,9 @@ class ATM:
 
             if pin == int(user_pin):
 
-                services = input("\nPlease select services (AIS/ PEA): ")
+                services = input("\nPlease select services (Internet/ Utilities): ")
 
-                if services == "PEA":
+                if services == "Utilities":
                     print("Amount: 192.60 THB")
                     tr_confirm = input(f"Please confirm the transaction (confirm/ deny): ")
                     if tr_confirm == "confirm":
@@ -71,7 +71,7 @@ class ATM:
                         break
                     else:
                         print("\nPlease re-start your transaction from the beginning.")
-                elif services == "AIS":
+                elif services == "Internet":
                     print("Amount: 319.93 THB")
                     tr_confirm = input(f"Please confirm the transaction (confirm/ deny): ")
                     if tr_confirm == "confirm":
