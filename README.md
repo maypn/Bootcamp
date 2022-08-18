@@ -9,6 +9,10 @@
   
 ## Python Programming
   - Analyzing Sales Data
+  
+    <img src="https://github.com/maypn/myPortfolio/blob/a11ddf495ca5249dc1f2508e45a1d526878fdd31/images/Shop02.jpg" width="400" height="250">
+    
+  
   - OOP_ATM 
   
     <img src="https://github.com/maypn/myPortfolio/blob/96dc22a9af563639a72bc4206de81c2fb968f0ba/images/ATM02.jpg" width="200" height="250">
