@@ -39,6 +39,4 @@
     
   - [Performance Dashboard](https://public.tableau.com/app/profile/mayp7482/viz/Tableau101_16594651781360/Dashboard1#1) - Dashborad of performance using Tableau
 
-    <img src="images/Tableau.PNG">
-    
-    <img src="images/Tableau.PNG" width="333" height="200">
+    <img src="images/tableau.PNG" width="333" height="200">
