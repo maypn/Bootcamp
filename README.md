@@ -8,6 +8,7 @@
 ### Python Programming
   - Analyzing Sales Data
   - OOP_ATM [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bb8wVyEakpsO-QvxoCc3dUHo3ogBAIZt?usp=sharing)
+    ![](https://github.com/maypn/myPortfolio/blob/729532605f1ff1956e8285c22cc9abe3187f1ae5/images/ATM01.jpg)
   - Rock Paper Scissors Game [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ggwf9v4gNB-zEdDIIeCir8gHmdT8XbPC?usp=sharing)
   
 ### Data Visualization
