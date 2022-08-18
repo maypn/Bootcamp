@@ -10,7 +10,7 @@
 ## Python Programming
   - [Analyzing Sales Data](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/Analyzing_Sales_Data.ipynb)
   
-    ![](img src="https://github.com/maypn/myPortfolio/blob/a11ddf495ca5249dc1f2508e45a1d526878fdd31/images/Shop02.jpg)
+    ![](https://github.com/maypn/myPortfolio/blob/a11ddf495ca5249dc1f2508e45a1d526878fdd31/images/Shop02.jpg)
     
   
   - [OOP_ATM](https://github.com/maypn/myPortfolio/blob/f5b7c36686e4c2e68cdff30b1675d6d61fc01b73/Python%20Programming/OOP_ATM.py) 
