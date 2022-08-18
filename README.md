@@ -47,7 +47,7 @@ Overview of sales report 2014-2017 by using Google Data Studio.
     
 ### [Project: Summary Order Dashboard](https://github.com/maypn/myPortfolio/blob/6dafbf487ab7ed791eb9e0fcc86d1dbf9f7aeac4/Dashboard/Summary%20order%20dashboard.pdf) 
 
-PowerBI dashboard on sales data by using slicers, maps, bar chart, donut charts. 
+PowerBI dashboard on sales data using slicers, maps, bar chart and donut charts to analyze data. 
   
 <img src="images/PowerBI.PNG" width="333" height="200">
     
