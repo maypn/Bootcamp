@@ -39,7 +39,7 @@ A simple game that anyone can play and win. Let's Play a Game! [![Open In Colab]
     
   
 # Data Visualization
-### [Project: Sales Report](https://github.com/maypn/myPortfolio/blob/85ae46169ee49305a047d90410892d344ce15914/Dashboard/Sales_Report.pdf) 
+### [Project: Sales Report](https://github.com/maypn/myPortfolio/blob/main/Dashboard/Sales_Report.pdf) 
 
 Overview of sales report 2014-2017 by using Google Data Studio.  
   
